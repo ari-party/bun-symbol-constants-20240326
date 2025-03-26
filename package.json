@@ -12,5 +12,8 @@
   "devDependencies": {
     "@types/bun": "^1.2.6",
     "bun-plugin-dts": "^0.3.0"
+  },
+  "resolutions": {
+    "bun-types": "canary"
   }
 }
