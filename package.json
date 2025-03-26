@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun run scripts/build.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.6",
+    "bun-plugin-dts": "^0.3.0"
+  }
+}
